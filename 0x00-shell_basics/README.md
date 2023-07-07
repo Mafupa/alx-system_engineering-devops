@@ -49,3 +49,6 @@ file 100-lets_move moves all file starting with an uppercase character to /tmp/u
 # Task 16
 file 101-clean_emacs removes all files ending with ~
 
+# Task 17
+file 102-tree creates a few subdirectories
+
