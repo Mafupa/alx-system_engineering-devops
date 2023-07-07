@@ -27,3 +27,6 @@ file 8-firstdelete deletes file betty from /my_first_directory
 
 # Task 9
 file 9-firstdirdeletion deletes my first directory
+
+# Task 10
+file 10-back goes back to previous working directory
