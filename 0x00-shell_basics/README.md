@@ -18,3 +18,6 @@ file 5-listfilesdigitonly list all content of directory(with hidden content) in 
 
 # Task 6
 file 6-firstdirectory adds a my_firsrt_directory at /tmp
+
+# Task 7
+file 7-movethatfile move file betty from /tmp to /tmp/my_first_directory
