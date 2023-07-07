@@ -52,3 +52,5 @@ file 101-clean_emacs removes all files ending with ~
 # Task 17
 file 102-tree creates a few subdirectories
 
+# Task 18
+file 103-commas prints all files in current directory separated by commas
