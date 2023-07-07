@@ -33,3 +33,6 @@ file 10-back goes back to previous working directory
 
 # Task 11
 file 11-lists list all files from current directory, parent directory and /boot
+
+# Task 12
+file 12-file_type prints the type of the file at /tmp/iamafile
