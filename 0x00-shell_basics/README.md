@@ -5,4 +5,7 @@ file 0-current_working_directory prints working directory
 file 1-listit list content of current directoty
 
 # Task 2
-file 2-bring_me_home brings you home 
+file 2-bring_me_home brings you home
+
+# Task 3
+file 3-listfiles ...list...files 
