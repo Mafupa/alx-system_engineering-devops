@@ -15,3 +15,6 @@ file 4-listmorefiles list more files
 
 # Task 5
 file 5-listfilesdigitonly list all content of directory(with hidden content) in long format but with user ID
+
+# Task 6
+file 6-firstdirectory adds a my_firsrt_directory at /tmp
