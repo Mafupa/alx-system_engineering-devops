@@ -12,3 +12,6 @@ file 3-listfiles ...list...files
 
 # Task 4
 file 4-listmorefiles list more files
+
+# Task 5
+file 5-listfilesdigitonly list all content of directory(with hidden content) in long format but with user ID
