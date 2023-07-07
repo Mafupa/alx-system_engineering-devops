@@ -30,3 +30,6 @@ file 9-firstdirdeletion deletes my first directory
 
 # Task 10
 file 10-back goes back to previous working directory
+
+# Task 11
+file 11-lists list all files from current directory, parent directory and /boot
