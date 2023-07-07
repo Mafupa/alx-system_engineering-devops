@@ -39,3 +39,7 @@ file 12-file_type prints the type of the file at /tmp/iamafile
 
 # Task 13
 file 13-symbolic_link create a symbolic link to /bin/ls
+
+# Task 14
+file 14-copy_html copies all the html files to the parent directory
+
