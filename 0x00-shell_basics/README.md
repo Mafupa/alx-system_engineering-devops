@@ -45,3 +45,7 @@ file 14-copy_html copies all the html files to the parent directory
 
 # Task 15
 file 100-lets_move moves all file starting with an uppercase character to /tmp/u
+
+# Task 16
+file 101-clean_emacs removes all files ending with ~
+
