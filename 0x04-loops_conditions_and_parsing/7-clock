@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#does a thing
 i=0
 while [ $i -le 12 ]
 do
