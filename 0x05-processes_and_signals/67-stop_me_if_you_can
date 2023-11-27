@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#tries to kill 7
+pkill -f 7-highlander
