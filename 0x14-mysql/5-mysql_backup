@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 <password>"
+    exit 1
+fi
+
+dump_file="backup.sql"
+date_format=$(date +"%d-%m-%Y")
+archive_name="$date_format.tar.gz"
+mysqldump -u root -p "$1" --all-databases > "$dump_file"
+tar -czf "$archive_name" "$dump_file"
