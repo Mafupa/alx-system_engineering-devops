@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Install and configure HAproxy on your lb-01 server.
+
+sudo apt-get -y update
+sudo apt-get -y install haproxy
+
+sudo service haproxy start
+
+echo "
+   listen load_balancer
+   bind *:80
+   mode http
+   balance roundrobin
+   option httpclose
+   option forwardfor
+   server 479554-web-01 52.86.251.192:80 check
+   server 479554-web-02 54.162.240.16:80 check
+" >> /etc/haproxy/haproxy.cfg
+
+service haproxy start
