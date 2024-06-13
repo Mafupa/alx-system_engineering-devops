@@ -2,12 +2,13 @@
 
 # Append limit
 exec{ 'increase-limit':
-	command => 'sed -i "s/15/4096" /etc/default/nginx',
-	path => '/usr/local/bin/:/bin/'
-} ->
+	provider => shell,
+	command  => 'sudo sed -i "s/ULIMIT=\"-n 15\"/ULIMIT=\"-n 4096\"/" /etc/default/nginx',
+	before   => Exec['restart'],
+}
 
 # Restart
 exec{ 'restart':
+	provider => shell,
 	command => 'nginx restart',
-	path => '/etc/init.d'
 }
